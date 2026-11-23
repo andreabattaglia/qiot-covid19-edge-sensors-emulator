@@ -10,6 +10,8 @@ metadata:
     - java
     - emulator
     - edge
+    - qiot
+    - covid19
 spec:
   type: service
   lifecycle: experimental
