@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: edge-sensors-emulator
+  description: Emulator of the gas and particulates sensors of a measurement station (Quarkus, REST, OpenAPI).
+  annotations:
+    github.com/project-slug: andreabattaglia/qiot-covid19-edge-sensors-emulator
+  tags:
+    - quarkus
+    - java
+    - emulator
+    - edge
+spec:
+  type: service
+  lifecycle: experimental
+  owner: user:default/guest
